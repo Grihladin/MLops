@@ -10,4 +10,21 @@ dependencies = [
     "matplotlib",
     "seaborn>=0.13.2",
     "dagster>=1.12.2",
+    "ruff>=0.14.5",
+    "lakefs>=0.14.0",
+    "pyright>=1.1.407",
+    "lakefs-spec",
+    "requests",
+    "pyarrow",
+    "scikit-learn",
+    "dagster-webserver>=1.12.2",
 ]
+
+[tool.ruff]
+line-length = 100
+target-version = "py313"
+extend-exclude = ["pipeline/artifacts", "pipeline/models", "pipeline/metrics"]
+
+[tool.pyright]
+pythonVersion = "3.13"
+typeCheckingMode = "basic"

@@ -1,0 +1,8 @@
+2025-11-19 14:00:11 +0100 - dagster - DEBUG - __ASSET_JOB - e6598b27-0d65-4693-8179-658f5e5e4ba9 - 28449 - LOGS_CAPTURED - Started capturing logs in process (pid: 28449).
+2025-11-19 14:00:11 +0100 - dagster - DEBUG - __ASSET_JOB - e6598b27-0d65-4693-8179-658f5e5e4ba9 - 28449 - raw_forklift_snapshot - STEP_START - Started execution of step "raw_forklift_snapshot".
+2025-11-19 14:00:11 +0100 - dagster - INFO - __ASSET_JOB - e6598b27-0d65-4693-8179-658f5e5e4ba9 - raw_forklift_snapshot - LakeFS config missing; falling back to local data at /Users/ratkem144/Desktop/mratke/week2/real_data
+2025-11-19 14:00:12 +0100 - dagster - DEBUG - __ASSET_JOB - e6598b27-0d65-4693-8179-658f5e5e4ba9 - 28449 - raw_forklift_snapshot - STEP_OUTPUT - Yielded output "result" of type "DatasetArtifact". (Type check passed).
+2025-11-19 14:00:12 +0100 - dagster - DEBUG - __ASSET_JOB - e6598b27-0d65-4693-8179-658f5e5e4ba9 - raw_forklift_snapshot - Serialized AssetKey(['raw_forklift_snapshot']) to /Users/ratkem144/Desktop/mratke/week2/pipeline/artifacts/io_manager/raw_forklift_snapshot.pickle
+2025-11-19 14:00:12 +0100 - dagster - DEBUG - __ASSET_JOB - e6598b27-0d65-4693-8179-658f5e5e4ba9 - 28449 - raw_forklift_snapshot - ASSET_MATERIALIZATION - Materialized value raw_forklift_snapshot.
+2025-11-19 14:00:12 +0100 - dagster - DEBUG - __ASSET_JOB - e6598b27-0d65-4693-8179-658f5e5e4ba9 - 28449 - raw_forklift_snapshot - HANDLED_OUTPUT - Handled output "result" using IO manager "artifact_io_manager"
+2025-11-19 14:00:12 +0100 - dagster - DEBUG - __ASSET_JOB - e6598b27-0d65-4693-8179-658f5e5e4ba9 - 28449 - raw_forklift_snapshot - STEP_SUCCESS - Finished execution of step "raw_forklift_snapshot" in 1.21s.

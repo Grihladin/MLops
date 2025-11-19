@@ -10,6 +10,12 @@ wheels/
 .venv
 real_data/
 real_data_with_headers/
+pipeline/artifacts/
+pipeline/models/
+pipeline/metrics/
 plots/
 real_data_with_headers_height_cleaned/
 real_data_with_carrying/
+.DS_Store
+*.csv
+models/
