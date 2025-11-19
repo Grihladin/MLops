@@ -1,0 +1,15 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+real_data/
+real_data_with_headers/
+plots/
+real_data_with_headers_height_cleaned/
+real_data_with_carrying/
